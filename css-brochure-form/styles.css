@@ -1,0 +1,59 @@
+input {
+  height: 35px;
+  width: 379px;
+  border-color: #dde0e3;
+  border-radius: 5px;
+  border-width: thin;
+  border-style: solid;
+  margin-bottom: 10px;
+  padding-left: 10px;
+  cursor: pointer;
+}
+
+label {
+  font-size: 9px;
+  font-weight: bold;
+  letter-spacing: 0.7px;
+  font-family: 'AtlasGrotesk', sans-serif;
+  margin: 8px;
+}
+
+.fieldset-styling {
+  border: none;
+  width: 100px;
+}
+
+.learn-styling {
+  color: #ec5d57;
+  font-weight: bold;
+  font-size: 22px;
+  text-align: center;
+  font-family: 'Brandon Grotesque', sans-serif;
+  letter-spacing: 1.6px;
+}
+
+.engineer-select {
+  height: 35px;
+  width: 379px;
+  background-color: #f4f5f6;
+  border-radius: 5px;
+  border-color: lightgray;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.submit-button {
+  background-color: #ec5d57;
+  color: white;
+  border: none;
+  border-radius: 18px;
+  padding: 8px 20px;
+  margin-left: 300px;
+  font-family: 'Brandon Grotesque', sans-serif;
+  letter-spacing: 0.5px;
+  cursor: pointer;
+}
+
+::placeholder {
+  color: #dde0e3;
+}
