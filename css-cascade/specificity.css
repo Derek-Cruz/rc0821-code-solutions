@@ -1,11 +1,3 @@
-* {
-  color: blue;
-}
-
-p {
-  color: orange;
-}
-
 #timbl {
   color: red;
 }
@@ -16,4 +8,12 @@ p {
 
 .bio {
   color: green;
+}
+
+p {
+  color: orange;
+}
+
+* {
+  color: blue;
 }
