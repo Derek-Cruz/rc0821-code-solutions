@@ -1,0 +1,39 @@
+body {
+  font-family: 'Barlow', sans-serif;
+  background-color: #f4f5f6;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.row {
+  display: flex;
+  text-align: center;
+}
+
+.h3-styling {
+  font-size: 1rem;
+}
+
+.p-styling {
+  font-size: 0.8rem;
+  padding-top: 10px;
+}
+
+.justify-evenly {
+  justify-content: space-evenly;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.phone-image {
+  width: 90%;
+}
+
+.emblem-image {
+  width: 20%;
+}
