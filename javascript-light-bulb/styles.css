@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+}
+
+.background {
+  display: flex;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.dot-light {
+  height: 250px;
+  width: 250px;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.dot-light.on {
+  background-color: #faea84;
+  box-shadow: 0 0 20px 20px #fdf2bf;
+}
+
+.dot-light.off {
+  background-color: #252525;
+  box-shadow: 0 -3px black, 0 -12px 0 10px #0c0c0c;
+}
+
+.background.on {
+  background-color: #fef9f1;
+}
+
+.background.off {
+  background-color: #111;
+}
