@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+}
+
+.img-placement {
+  width: 100%;
+}
+
+.container {
+  max-width: 1400px;
+  margin: auto;
+  text-align: center;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+}
+
+.dot {
+  width: 2%;
+}
+
+.arrows {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  font-size: 45px;
+}
+
+.column-third {
+  width: calc(100% / 3);
+  text-align: center;
+}
+
+i:hover {
+  cursor: pointer;
+}
