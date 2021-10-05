@@ -1,0 +1,1000 @@
+  578  git status
+  579  git commit -m "Completed html links."
+  580  git push origin html-links
+  581  git checkout master
+  582  git status
+  583  git pull origin master
+  584  cd ~/repos/rc0821-code-solutions/
+  585  git status
+  586  git branch css-colors
+  587  git switch css-colors 
+  588  git status
+  589  git add css-colors
+  590  git status
+  591  git commit -m "Completed css colors."
+  592  git push origin css-colors 
+  593  git checkout master
+  594  cd ~/repos/rc0821-code-solutions/
+  595  git status
+  596  git pull origin master
+  597  git status
+  598  git branch css-box-model
+  599  git switch css-box-model 
+  600  git status
+  601  git add css-box-model
+  602  git status
+  603  git commit -m "Completed css box model."
+  604  git push origin css-box-model 
+  605  git status
+  606  git add css-box-model/styles.css 
+  607  git status
+  608  git commit -m "Fixed padding issue."
+  609  git push origin css-box-model 
+  610  git checkout master
+  611  git status
+  612  git pull origin master
+  613  git status
+  614  git branch css-pseudo-classes
+  615  git switch css-pseudo-classes 
+  616  git status
+  617  git add css-pseudo-classes/
+  618  git status
+  619  git commit -m "Completed css pseudo classes."
+  620  git push origin css-pseudo-classes 
+  621  git checkout master
+  622  git status
+  623  git pull origin master
+  624  cd ~/repos/rc0821-code-solutions/
+  625  git status
+  626  git branch css-flexbox
+  627  git switch css-flexbox 
+  628  git status
+  629  git add css-flexbox
+  630  git status
+  631  git commit -m "Completed css flexbox."
+  632  git push origin css-flexbox 
+  633  git checkout master
+  634  git staut
+  635  git status
+  636  git pull origin master
+  637  git status
+  638  git branch css-layout-classes
+  639  git switch css-layout-classes 
+  640  git status
+  641  git add css-layout-classes
+  642  git status
+  643  git commit -m "Completed css layout classes."
+  644  git push origin css-layout-classes 
+  645  git checkout master
+  646  git status
+  647  git pull origin master
+  648  git status
+  649  git branch css-three-column-layout
+  650  git switch css-three-column-layout 
+  651  git status
+  652  git add css-three-column-layout
+  653  git status
+  654  git commit -m "Completed -m css three column layout."
+  655  git push origin css-three-column-layout 
+  656  git checkout master
+  657  git pull origin master
+  658  git status
+  659  git branch css-two-column-layout
+  660  git switch css-two-column-layout 
+  661  git status
+  662  git add css-two-column-layout
+  663  git status
+  664  git commit -m "Completed css two column layout."
+  665  git push origin css-two-column-layout 
+  666  git checkout master
+  667  git pull origin master
+  668  cd ~/repos/rc0821-code-solutions/
+  669  git status
+  670  git branch css-positioning
+  671  git switch css-positioning 
+  672  git status
+  673  git add css-positioning
+  674  git status
+  675  git commit -m "Completed css positioning."
+  676  git push origin css-positioning 
+  677  git checkout master
+  678  git pull origin master
+  679  git status
+  680  git branch css-cascade
+  681  git switch css-cascade 
+  682  git status
+  683  git add css-cascade
+  684  git status
+  685  git commit -m "Completed css cascade."
+  686  git push origin css-cascade 
+  687  git status
+  688  git add css-cascade/specificity.css 
+  689  git status
+  690  git commit -m "Fixed request changes."
+  691  git push origin master
+  692  git push origin css-cascade 
+  693  git checkout master
+  694  git status
+  695  git pull origin master
+  696  cd ~/repos/rc0821-code-solutions/
+  697  git status
+  698  git branch javascript-primitives-and-variables
+  699  git switch javascript-primitives-and-variables 
+  700  git status
+  701  git add javascript-primitives-and-variables
+  702  git status
+  703  git commit -m "Completed javascript primitives and variables."
+  704  git push origin javascript-primitives-and-variables 
+  705  git checkout master
+  706  git pull origin master
+  707  git status
+  708  git branch javascript-operators-and-expressions
+  709  git switch javascript-operators-and-expressions 
+  710  git status
+  711  git add javascript-operators-and-expressions
+  712  git status
+  713  git commit -m "Completed javascript operators and expressions."
+  714  git push origin javascript-operators-and-expressions 
+  715  git checkout master
+  716  git status
+  717  git pull origin master
+  718  git status
+  719  git branch javascript-objects
+  720  git switch javascript-objects 
+  721  git status
+  722  git add javascript-objects
+  723  git commit -m "Completed javascript objects."
+  724  git push origin javascript-objects 
+  725  git checkout master
+  726  git status
+  727  git branch javascript-arrays
+  728  git switch javascript-arrays 
+  729  git status
+  730  git add javascript-arrays
+  731  git status
+  732  git commit -m "Completed javascript arrays."
+  733  git push origin javascript-arrays 
+  734  git checkout master
+  735  git branch --list
+  736  git branch css-canvas-medical
+  737  git switch css-canvas-medical 
+  738  git status
+  739  git add css-canvas-medical
+  740  git status
+  741  git commit -m "Completed css canvas medical."
+  742  git push origin css-canvas-medical 
+  743  git checkout master
+  744  git status
+  745  git pull origin master
+  746  git status
+  747  git branch css-four-column-layout
+  748  git switch css-four-column-layout 
+  749  git status
+  750  git add css-four-column-layout
+  751  git status
+  752  git commit -m "Completed css four column layout."
+  753  git push origin css-four-column-layout 
+  754  git checkout master
+  755  git pull origin master
+  756  cd ~/repos/rc0821-code-solutions/
+  757  git status
+  758  git add javascript-data-model
+  759  git branch javascript-data-model
+  760  git switch javascript-data-model 
+  761  git status
+  762  git commit -m "Completed javascript data model."
+  763  git push origin javascript-data-model 
+  764  git checkout master
+  765  git status
+  766  git branch javascript-functions
+  767  git switch javascript-functions 
+  768  git status
+  769  git add javascript-functions
+  770  git status
+  771  git commit -m "Completed javascript functions."
+  772  git push origin javascript-functions 
+  773  git checkout master
+  774  git status
+  775  git pull origin master
+  776  git status
+  777  git branch javascript-functions-practice
+  778  git switch javascript-functions-practice 
+  779  git status
+  780  git add javascript-functions-practice
+  781  git status
+  782  git commit -m "Completed javascript function practice."
+  783  git push origin javascript-functions-practice 
+  784  git checkout master
+  785  git status
+  786  git branch css-ecommerce-page
+  787  git switch css-ecommerce-page 
+  788  git status
+  789  git add css-ecommerce-page
+  790  git status
+  791  git commit -m "Completed css ecommerce page."
+  792  git push origin css-ecommerce-page 
+  793  git checkout master
+  794  cd ~/repos/rc0821-code-solutions/
+  795  git status
+  796  git branch javascript-methods
+  797  git switch javascript-methods 
+  798  git statsu
+  799  git status
+  800  git add javascript-methods
+  801  git status
+  802  git commit -m "Completed javascript methods."
+  803  git push origin javascript-methods 
+  804  git checkout master
+  805  git status
+  806  git pull origin master
+  807  git status
+  808  git branch javascript-if
+  809  git switch javascript-if
+  810  git status
+  811  git add javascript-if
+  812  git status
+  813  git commit -m "Completed javascript if."
+  814  git push origin javascript-if
+  815  git checkout master
+  816  git pull origin master
+  817  git status
+  818  git branch javascript-loops
+  819  git switch javascript-loops 
+  820  git status
+  821  git add javascript-loops
+  822  git status
+  823  git commit -m "Completed javascript loops."
+  824  git push origin javascript-loops 
+  825  cd ~/repos
+  826  cd
+  827  cd ~/repos/rc0821-code-solutions/
+  828  git checkout master
+  829  git status
+  830  git branch javascript-loops-practice
+  831  git switch javascript-loops-practice 
+  832  git status
+  833  git add javascript-loops-practice
+  834  git status
+  835  git commit -m "Completed javascript loops practice."
+  836  git push origin javascript-loops-practice 
+  837  git checkout master
+  838  git pull origin master
+  839  git status
+  840  git branch css-canvas-medical 
+  841  git switch css-canvas-medical 
+  842  git status
+  843  git add css-canvas-medical/index.html 
+  844  git add css-canvas-medical/implementation.html 
+  845  git add css-canvas-medical/styles-implementation.css 
+  846  git status
+  847  git commit -m "Completed implementation page."
+  848  git push origin css-canvas-medical 
+  849  git status
+  850  git add css-canvas-medical/implementation.html 
+  851  git status
+  852  git commit -m "Fixed a few lines."
+  853  git push origin css-canvas-medical 
+  854  git status
+  855  git checkout master
+  856  git pull origin master
+  857  cd ~/repos/rc0821-code-solutions/
+  858  git status
+  859  git branch object-manipulation-1
+  860  git switch object-manipulation-1 
+  861  git status
+  862  git add object-manipulation-1
+  863  git status
+  864  git commit -m "Completed object manipulation 1."
+  865  git push origin object-manipulation-1 
+  866  git checkout master
+  867  git status
+  868  git branch array-manipulation-2
+  869  git switch array-manipulation-2
+  870  git status
+  871  git add array-manipulation-2
+  872  git status
+  873  git commit -m "Completed array manipulation 2."
+  874  git push origin array-manipulation-2
+  875  cd ~/repos/rc0821-code-solutions/
+  876  git checkout master
+  877  git status
+  878  git branch string-manipulation-2
+  879  git switch string-manipulation-2
+  880  git status
+  881  git add string-manipulation-2
+  882  git status
+  883  git commit -m "Completed string manipulation 2."
+  884  git push origin string-manipulation-2
+  885  cd ~/repos/rc0821-code-solutions/
+  886  git status
+  887  git branch javascript-light-bulb
+  888  git switch javascript-light-bulb 
+  889  git status
+  890  git add javascript-light-bulb
+  891  git status
+  892  git commit -m "Completed javascript light bulb."
+  893  git push origin javascript-light-bulb 
+  894  git checkout master
+  895  git status
+  896  git branch javascript-modal
+  897  git switch javascript-modal 
+  898  git status
+  899  git add javascript-modal
+  900  git status
+  901  git commit -m "Completed javascript modal."
+  902  git push origin javascript-modal 
+  903  git checkout master
+  904  git status
+  905  git branch javascript-typing-tutor
+  906  git switch javascript-typing-tutor 
+  907  git status
+  908  git add javascript-typing-tutor
+  909  git status
+  910  git commit -m "Completed javascript typing tutor."
+  911  git push origin javascript-typing-tutor 
+  912  git checkout master
+  913  cd ~/repos/rc0821-code-solutions/
+  914  git status
+  915  git branch javascript-forms
+  916  git switch javascript-forms 
+  917  git status
+  918  git add javascript-forms
+  919  git status
+  920  git commit -m "Completed javascript forms."
+  921  git push origin javascript-forms 
+  922  git checkout master
+  923  git switch javascript-typing-tutor 
+  924  git status
+  925  git add javascript-typing-tutor/index.html 
+  926  git status
+  927  git commit -m "Updated html so space is also underlined."
+  928  git push origin javascript-typing-tutor 
+  929  git checkout master
+  930  git status
+  931  git pull origin master
+  932  git status
+  933  git branch dom-creation
+  934  git switch dom-creation 
+  935  git status
+  936  git add dom-creation
+  937  git status
+  938  git commit -m "Completed dom creation."
+  939  git push origin dom-creation 
+  940  cd ~/repos/rc0821-code-solutions/
+  941  git checkout master
+  942  git status
+  943  git branch dom-event-delegation
+  944  git switch dom-event-delegation 
+  945  git status
+  946  git add dom-event-delegation
+  947  git status
+  948  git commit -m "Completed dom event delegation."
+  949  git push origin dom-event-delegation 
+  950  git checkout master
+  951  git status
+  952  git pull origin master 
+  953  git status
+  954  git branch javascript-view-swapping
+  955  git switch javascript-view-swapping
+  956  git status
+  957  git add javascript-view-swapping
+  958  git status
+  959  git commit -m "Completed javascript view swapping."
+  960  git push origin javascript-view-swapping 
+  961  git checkout master
+  962  git status
+  963  git pull origin master
+  964  cd ~/repos/rc0821-code-solutions/
+  965  git status
+  966  git branch css-transitions
+  967  git switch css-transitions 
+  968  git status
+  969  git add css-transitions
+  970  git status
+  971  git commit -m "Completed css transitions."
+  972  git push origin css-transitions 
+  973  git checkout master
+  974  cd ~/repos/rc0821-code-solutions/
+  975  git status
+  976  git branch javascript-and-json
+  977  git switch javascript-and-json 
+  978  git status
+  979  git add javascript-and-json
+  980  git status
+  981  git commit -m "Completed javascript and json."
+  982  git push origin javascript-and-json 
+  983  git checkout master
+  984  git status
+  985  git branch object-manipulation-2
+  986  git switch object-manipulation-2
+  987  git status
+  988  git add object-manipulation-2
+  989  git status
+  990  git commit -m "Completed object manipulation 2."
+  991  git push origin object-manipulation-2
+  992  git checkout master
+  993  git status
+  994  git branch javascript-local-storage
+  995  git switch javascript-local-storage 
+  996  git status
+  997  git add javascript-local-storage
+  998  git status
+  999  git commit -m "Completed javascript local storage."
+ 1000  git push origin javascript-local-storage 
+ 1001  git checkout master
+ 1002  git status
+ 1003  git branch css-responsive-layout
+ 1004  git branch css-responsive-layout 
+ 1005  git switch css-responsive-layout 
+ 1006  git status
+ 1007  git add css-responsive-layout
+ 1008  git status
+ 1009  git commit -m "Completed css responsive layout."
+ 1010  git push origin css-responsive-layout 
+ 1011  git checkout master
+ 1012  git status
+ 1013  git pull origin master
+ 1014  git status
+ 1015  git switch css-canvas-medical 
+ 1016  git status
+ 1017  git add css-canvas-medical/product.html 
+ 1018  git add css-canvas-medical/styles-product.css 
+ 1019  git status
+ 1020  git commit -m "In progress, switching to another assignment."
+ 1021  git status
+ 1022  git add css-canvas-medical/product.html 
+ 1023  git add css-canvas-medical/styles-product.css 
+ 1024  git status
+ 1025  git commit -m "In progress, switching to another assignment."
+ 1026  git push origin css-canvas-medical 
+ 1027  git checkout master
+ 1028  git status
+ 1029  git branch array-manipulation-3
+ 1030  git switch array-manipulation-3
+ 1031  git status
+ 1032  git add array-manipulation-3
+ 1033  git status
+ 1034  git commit -m "Completed array manipulation 3."
+ 1035  git push origin array-manipulation-3
+ 1036  git checkout master
+ 1037  git status
+ 1038  git pull origin master 
+ 1039  cd ~/repos/rc0821-code-solutions/
+ 1040  git checkout master
+ 1041  git status
+ 1042  git branch string-manipulation-3
+ 1043  git switch string-manipulation-3
+ 1044  git status
+ 1045  git add string-manipulation-3
+ 1046  git status
+ 1047  git commit -m 
+ 1048  git commit -m "Completed string manipulation 3."
+ 1049  git push origin string-manipulation-3
+ 1050  git checkout master
+ 1051  cd 
+ 1052  --list
+ 1053  cd --list
+ 1054  cd ~/repos/code-journal
+ 1055  git status
+ 1056  git add index.html 
+ 1057  git add js/main.js 
+ 1058  git status
+ 1059  git commit -m "Fixed my NEW and Entries button."
+ 1060  git status
+ 1061  git add js/main.js 
+ 1062  git status
+ 1063  git commit -m "Fixed my NEW and Entries button."
+ 1064  git push origin issue-2-view-entries 
+ 1065  cd
+ 1066  git clone https://github.com/Derek-Cruz/repo.git
+ 1067  git clone  https://github.com/Derek-Cruz/code-journal.git
+ 1068  rm -rf code-journal
+ 1069  cd repos
+ 1070  git clone https://github.com/Derek-Cruz/code-journal.git
+ 1071  cd ~/repos/code-journal
+ 1072  git status
+ 1073  git push origin issue-2-view-entries 
+ 1074  git checkout master
+ 1075  git branch issue-2-view-entries 
+ 1076  git switch issue-2-view-entries 
+ 1077  cd
+ 1078  ssh-keygen -t ed25519 -C "derekcruz94@gmail.com"
+ 1079  clip < ~/.ssh/id_ed25519.pub
+ 1080  cat ~/.ssh/id_ed25519.pub
+ 1081  cd ~/repos/code-journal
+ 1082  git checkout master
+ 1083  git remote set-url origin git@github.com:Derek-Cruz/code-journal.git
+ 1084  git remote -v
+ 1085  git switch issue-2-view-entries 
+ 1086  git push origin issue-2-view-entries 
+ 1087  cd ~/repos/code-journal/
+ 1088  git status
+ 1089  git add js/main.js 
+ 1090  git status
+ 1091  git commit -m "In progress with refresh problem, taking quick break. #2"
+ 1092  git status
+ 1093  git add js/main.js 
+ 1094  git status
+ 1095  git commit -m "In progress with refresh problem, taking quick break. #2"
+ 1096  git push origin issue-2-view-entries 
+ 1097  git status
+ 1098  git add js/main.js 
+ 1099  git status
+ 1100  git commit -m "Refresh problem fixed, working on initial load page to be entry-form. #2"
+ 1101  git push origin issue-2-view-entries 
+ 1102  git status
+ 1103  git add js/main.js 
+ 1104  git status
+ 1105  git commit -m "Tested in browsing tab and fixed all errors, sending in PR. #2"
+ 1106  git push origin issue-2-view-entries 
+ 1107  git checkout master
+ 1108  git status
+ 1109  git pull origin master 
+ 1110  git branch issue-3-can-edit-entry
+ 1111  git switch issue-3-can-edit-entry 
+ 1112  git status
+ 1113  git add css/styles.css 
+ 1114  git add js/main.js 
+ 1115  git status
+ 1116  git commit -m "In progress with adding a edit icon. #3"
+ 1117  git push origin issue-3-can-edit-entry 
+ 1118  cd ~/repos/code-journal/
+ 1119  git status
+ 1120  git add css/layout.css 
+ 1121  git add css/styles.css 
+ 1122  git add js/main.js 
+ 1123  git status
+ 1124  git commit -m "Render includes an edit icon for each entry. #3"
+ 1125  git push origin issue-3-can-edit-entry 
+ 1126  git status
+ 1127  git add js/main.js 
+ 1128  git status
+ 1129  git commit -m "Ensure each render entry is given a data-entry-id. #3"
+ 1130  git push origin issue-3-can-edit-entry 
+ 1131  git status
+ 1132  git add js/main.js 
+ 1133  git status
+ 1134  git commit -m "In progress with click event, lunch break. #3"
+ 1135  git status
+ 1136  git add index.html 
+ 1137  git add js/main.js 
+ 1138  git status
+ 1139  git commit -m "In progess with showing the entry form when icon clicked. #3"
+ 1140  git status
+ 1141  git add js/main.js 
+ 1142  git status
+ 1143  git commit -m "In progess with showing the entry form when icon clicked. #3"
+ 1144  git push origin issue-3-can-edit-entry 
+ 1145  cd ~/repos/code-journal/
+ 1146  git stauts
+ 1147  git status
+ 1148  git add index.html 
+ 1149  git add js/main.js 
+ 1150  git status
+ 1151  git commit -m "Fixed some property and attribute names so i can carry on smoothly. #3"
+ 1152  git push origin issue-3-can-edit-entry 
+ 1153  cd ~/repos/code-journal/
+ 1154  git status
+ 1155  git add index.html 
+ 1156  git add js/main.js 
+ 1157  git status
+ 1158  git commit -m "In progess with displaying edit form. #3"
+ 1159  git push origin issue-3-can-edit-entry 
+ 1160  git status
+ 1161  git add js/main.js 
+ 1162  git status
+ 1163  git commit -m "Clicking icon now shows the entry. #3"
+ 1164  git push origin issue-3-can-edit-entry 
+ 1165  git status
+ 1166  git add js/main.js 
+ 1167  git status
+ 1168  git commit -m "In progress with function to conditionally add a new entry object or update the existing one. #3"
+ 1169  git push origin issue-3-can-edit-entry 
+ 1170  git status
+ 1171  git add js/main.js 
+ 1172  git status
+ 1173  git commit -m "In progress with adding a new entry DOM tree or replace the existing one. #3"
+ 1174  git push origin issue-3-can-edit-entry 
+ 1175  git status
+ 1176  git add js/main.js 
+ 1177  git status
+ 1178  git commit -m "Had to update 1 thing. #3"
+ 1179  git push origin issue-3-can-edit-entry 
+ 1180  cd ~/repos/code-journal/
+ 1181  git status
+ 1182  git add css/styles.css 
+ 1183  git status
+ 1184  git commit -m "Did some testing and changed the edit icon size, sending PR. #3"
+ 1185  git push origin issue-3-can-edit-entry 
+ 1186  cd ~/repos/code-journal/
+ 1187  git checkout master
+ 1188  git pull origin master 
+ 1189  cd ~/repos
+ 1190  git clone git@github.com:dnypham/week-planner.git
+ 1191  cd week-planner
+ 1192  npm ci
+ 1193  cd ~/repos/week-planner/
+ 1194  git pull origin master 
+ 1195  git status
+ 1196  git add .
+ 1197  git status
+ 1198  git commit -m "In progress with HTML and CSS."
+ 1199  git push origin master 
+ 1200  git pull origin master 
+ 1201  git status
+ 1202  git add .
+ 1203  git status
+ 1204  git commit -m "Still in progress."
+ 1205  git push origin master 
+ 1206  git pull origin master 
+ 1207  git status
+ 1208  git add .
+ 1209  git status
+ 1210  git commit -m "Still in progress with HTML and CSS."
+ 1211  git push origin master 
+ 1212  git pull origin master 
+ 1213  git status
+ 1214  git add .
+ 1215  git status
+ 1216  git commit -m "In progress with HTML and CSS."
+ 1217  git push origin master 
+ 1218  git pull origin master 
+ 1219  git status
+ 1220  git add .
+ 1221  git status
+ 1222  git commit -m "In progress with HTML and CSS."
+ 1223  git push origin master 
+ 1224  git pull origin master 
+ 1225  git status
+ 1226  git add .
+ 1227  git commit -m "Lunch break."
+ 1228  git status
+ 1229  git add .
+ 1230  git status
+ 1231  git commit -m "In progress with JS."
+ 1232  git push origin master 
+ 1233  git pull origin master 
+ 1234  git status
+ 1235  git add .
+ 1236  git status
+ 1237  git commit -m "Completed Step 1 onto step 2."
+ 1238  git push origin master 
+ 1239  git pull origin master 
+ 1240  git status
+ 1241  git add .
+ 1242  git status
+ 1243  git commit -m "In progress with Table."
+ 1244  git push origin master 
+ 1245  git pull origin master 
+ 1246  git status
+ 1247  git add .
+ 1248  git status
+ 1249  git commit -m "in progress with js."
+ 1250  git push origin master 
+ 1251  git pull origin master 
+ 1252  git status
+ 1253  git add . 
+ 1254  git status
+ 1255  git commit -m "In progress with JS.' --no-verify
+ 1256  git status
+ 1257  git status
+ 1258  cd
+ 1259  cd ~/repos/rc0821-code-solutions/
+ 1260  git status
+ 1261  git branch javascript-custom-methods
+ 1262  git switch javascript-custom-methods 
+ 1263  git status
+ 1264  git add .
+ 1265  git status
+ 1266  git commit -m "Completed javascript custom methods."
+ 1267  git pull origin javascript-custom-methods
+ 1268  git push origin javascript-custom-methods 
+ 1269  git checkout master
+ 1270  git status
+ 1271  git add javascript-this
+ 1272  git status
+ 1273  git branch javascript-this
+ 1274  git switch javascript-this
+ 1275  git status
+ 1276  git commit -m "Completed javascript this."
+ 1277  git push origin javascript-this
+ 1278  git checkout master
+ 1279  git status
+ 1280  git branch javascript-prototypes
+ 1281  git switch javascript-prototypes 
+ 1282  git status
+ 1283  git add javascript-prototypes
+ 1284  git status
+ 1285  git commit -m "Completed javascript prototypes."
+ 1286  git push origin javascript-prototypes 
+ 1287  git checkout master
+ 1288  git status
+ 1289  git pull origin master 
+ 1290  cd ~/repos/rc0821-code-solutions/
+ 1291  git status
+ 1292  git add javascript-constructors/example-constructor.js 
+ 1293  git status
+ 1294  git commit -m "Added example-constructor.js."
+ 1295  git push origin javascript-constructors 
+ 1296  git status
+ 1297  git checkout master
+ 1298  git branch javascript-bank
+ 1299  git switch javascript-bank 
+ 1300  git status
+ 1301  git commit -m "Completed Javascript bank."
+ 1302  git add javascript-bank
+ 1303  git status
+ 1304  git commit -m "Completed Javascript bank."
+ 1305  git push origin javascript-bank 
+ 1306  git status
+ 1307  git add javascript-bank/account.js 
+ 1308  git status
+ 1309  git commit -m "Fixed change request!"
+ 1310  git push origin javascript-bank 
+ 1311  git status
+ 1312  git checkout master
+ 1313  cd
+ 1314  cd ~/repos/code-journal/
+ 1315  git status
+ 1316  git branch --list
+ 1317  git branch issue-4-delete-entry
+ 1318  git switch issue-4-delete-entry 
+ 1319  git status
+ 1320  git add .
+ 1321  git status
+ 1322  git commit -m "In progress with delete button. #4"
+ 1323  cd ~/repos/code-journal
+ 1324  git status
+ 1325  git add js/main.js 
+ 1326  git status
+ 1327  git commit -m "Seeing if my commits are working. #4"
+ 1328  git push origin issue-4-delete-entry 
+ 1329  git checkout master
+ 1330  cd
+ 1331  cd ~/repos/rc0821-code-solutions/
+ 1332  git status
+ 1333  git branch javascript-timers
+ 1334  git switch javascript-timers 
+ 1335  git status
+ 1336  git add javascript-timers
+ 1337  git status
+ 1338  git commit -m "Completed Javascript timers."
+ 1339  git push origin javascript-timers 
+ 1340  git checkout master
+ 1341  git status
+ 1342  git pull origin master 
+ 1343  cd ~/repos/rc0821-code-solutions/
+ 1344  git checkout master
+ 1345  git status
+ 1346  git branch http-messages
+ 1347  git switch http-messages 
+ 1348  cd http-messages
+ 1349  pwd
+ 1350  http https://example.com
+ 1351  http --verbose https://example.com
+ 1352  http --body GET https://jsonplaceholder.typicode.com/users > users.json
+ 1353  http --body GET https://example.com > index.html
+ 1354  git status
+ 1355  git add .
+ 1356  git status
+ 1357  git commit -m "Completed HTTP messages."
+ 1358  git push origin http-messages 
+ 1359  cd
+ 1360  pwd
+ 1361  cd ~/repos/rc0821-code-solutions/
+ 1362  git checkout master
+ 1363  cd ~/repos/rc0821-code-solutions/
+ 1364  git status
+ 1365  git branch javascript-ajax
+ 1366  git switch javascript-ajax
+ 1367  git status
+ 1368  git add javascript-ajax
+ 1369  git status
+ 1370  git commit -m "Completed JavaScript ajax."
+ 1371  git push origin javascript-ajax
+ 1372  git checkout master
+ 1373  cd
+ 1374  cd ~/repos/code-journal
+ 1375  git switch issue-4-delete-entry 
+ 1376  git status
+ 1377  git add .
+ 1378  git status
+ 1379  git commit -m "Working on delete button placement."
+ 1380  git push origin issue-4-delete-entry 
+ 1381  cd
+ 1382  cd ~/repos/rc0821-code-solutions/
+ 1383  git status
+ 1384  git pull origin master
+ 1385  git status
+ 1386  cd
+ 1387  cd ~/repos/code-journal/
+ 1388  git status
+ 1389  git add css/styles.css 
+ 1390  git add index.html 
+ 1391  git status
+ 1392  git commit "In progress still, going to another assignment."
+ 1393  git commit -m "In progress still, going to another assignment."
+ 1394  git push origin issue-4-delete-entry 
+ 1395  cd ~/repos/aj
+ 1396  cd ~/repos/ajax-project/
+ 1397  git status
+ 1398  git add.
+ 1399  git add .
+ 1400  git status
+ 1401  git commit -m "In progress with html and css."
+ 1402  git push origin issue-1-user-can-make-decklist 
+ 1403  git status
+ 1404  git add .
+ 1405  git status
+ 1406  git commit -m "Working on my header in HTML. #1"
+ 1407  git push origin issue-1-user-can-make-decklist 
+ 1408  cd ~/repos/ajax-project/
+ 1409  git status
+ 1410  git add .
+ 1411  git status
+ 1412  git commit -m "Done with header for now onto browsing view. #1"
+ 1413  git push origin issue-1-user-can-make-decklist 
+ 1414  cd ~/repos/ajax-project/
+ 1415  git status
+ 1416  git add . 
+ 1417  git status
+ 1418  git commit -m "Finished search and deck button, starting on js. #1"
+ 1419  git push origin issue-1-user-can-make-decklist 
+ 1420  git status
+ 1421  git add .
+ 1422  git status
+ 1423  git commit -m "fixed issues with mobile view. #1"
+ 1424  git push origin issue-1-user-can-make-decklist 
+ 1425  git status
+ 1426  git add .
+ 1427  git status
+ 1428  git commit -m "In progress with JavaScript. #1"
+ 1429  git status
+ 1430  git add js/main.js 
+ 1431  git status
+ 1432  git commit -m "In progress with JavaScript. #1"
+ 1433  git push origin issue-1-user-can-make-decklist 
+ 1434  cd ~/repos/ajax-project/
+ 1435  git status
+ 1436  git add .
+ 1437  git status
+ 1438  git commit -m "Working on my render function. #1"
+ 1439  git status
+ 1440  git add .
+ 1441  git status
+ 1442  git commit -m "Working on my render function. #1"
+ 1443  git push origin issue-1-user-can-make-decklist 
+ 1444  git status
+ 1445  git add .
+ 1446  git status
+ 1447  git commit -m "Finsihed render function,need to get api to work with it. #1"
+ 1448  git status
+ 1449  git add .
+ 1450  git status
+ 1451  git commit -m "Finsihed render function,need to get api to work with it. #1"
+ 1452  git push origin issue-1-user-can-make-decklist 
+ 1453  git status
+ 1454  git add .
+ 1455  git status
+ 1456  git commit -m "Fixed render for cards that didnt have img. #1"
+ 1457  git status
+ 1458  git add . 
+ 1459  git status
+ 1460  git commit -m "Fixed render for cards that didnt have img. #1"
+ 1461  git push origin issue-1-user-can-make-decklist 
+ 1462  cd ~/repos/ajax-project/
+ 1463  git status
+ 1464  git add .
+ 1465  git status
+ 1466  git commit -m "Working on my modal icon to close. #1"
+ 1467  git push origin issue-1-user-can-make-decklist 
+ 1468  cd ~/repos/ajax-project/
+ 1469  git status
+ 1470  git add .
+ 1471  git status
+ 1472  git commit -m "Working on mobile view. #1"
+ 1473  git push origin issue-1-user-can-make-decklist 
+ 1474  git status
+ 1475  git add .
+ 1476  git status
+ 1477  git commit -m "Almost done with mobile view. #1"
+ 1478  git push origin issue-1-user-can-make-decklist 
+ 1479  git status
+ 1480  git add .
+ 1481  git status
+ 1482  git commit -m "Sending in PR. #1"
+ 1483  git push origin issue-1-user-can-make-decklist 
+ 1484  git checkout master
+ 1485  git status
+ 1486  git pull origin master 
+ 1487  git branch issue-2-user-can-browse-search-cards
+ 1488  git switch issue-2-user-can-browse-search-cards 
+ 1489  git status
+ 1490  git add .
+ 1491  git status
+ 1492  git commit -m "Working on changing the api page when i click next page. #2"
+ 1493  git push origin issue-2-user-can-browse-search-cards 
+ 1494  cd ~/repos/ajax-project/
+ 1495  git status
+ 1496  cd ~/repos/ajax-project/
+ 1497  git status
+ 1498  git add . 
+ 1499  git status
+ 1500  git commit -m "Rearranged a line of code, had to get to another assignment. #2"
+ 1501  git push origin issue-2-user-can-browse-search-cards 
+ 1502  cd ~/repos/ajax-project/
+ 1503  git status
+ 1504  git add . 
+ 1505  git status
+ 1506  git commit -m "Worked on my search bar, added a search button so its easier to search. #10"
+ 1507  git status
+ 1508  git add . 
+ 1509  git status
+ 1510  git commit -m "Worked on my search bar, added a search button so its easier to search. #10"
+ 1511  git push origin issue-10-user-can-use-search-bar 
+ 1512  cd ~/repos/rc0821-code-solutions/
+ 1513  git checkout master
+ 1514  git status
+ 1515  git pull origin master
+ 1516  git status
+ 1517  git branch command-line-basics
+ 1518  git switch command-line-basics 
+ 1519  cd command-line-basics/
+ 1520  pwd
+ 1521  man man
+ 1522  man cat
+ 1523  cat laziness.txt
+ 1524  cat impatience.txt
+ 1525  cat hubris.txt 
+ 1526  cat laziness.txt impatience.txt hubris.txt > three-virtues.txt
+ 1527  cat three-virtues.txt 
+ 1528  man ls
+ 1529  ls -a
+ 1530  ls -F
+ 1531  ls lfz-staff/
+ 1532  ls -a
+ 1533  ls lfz-staff/
+ 1534  ls -F
+ 1535  ls -aF lfz-staff > lfz-staff/contents.txt
+ 1536  cat lfz-staff/contents.txt
+ 1537  man pwd
+ 1538  pwd
+ 1539  pwd > i-was-here.txt
+ 1540  ls
+ 1541  cat i-was-here.txt 
+ 1542  man echo
+ 1543  echo 'Hello, World!'
+ 1544  echo 'Hello, World!' > hello.txt
+ 1545  ls
+ 1546  cat hello.txt 
+ 1547  man touch
+ 1548  touch tag-youre-it.txt
+ 1549  touch boop.txt snoot/
+ 1550  ls snoot/
+ 1551  ls
+ 1552  snoot
+ 1553  man touch
+ 1554  man mkdir
+ 1555  mkdir -p
+ 1556  mkdir -p parent
+ 1557  ls
+ 1558  mkdir -p parent/child/grandchild
+ 1559  ls
+ 1560  touch parent/child/grandchild.gitkeep
+ 1561  ls -a parent/child/grandchild
+ 1562  man mv
+ 1563  mv pokiemans/ pokemon
+ 1564  ls
+ 1565  man rm
+ 1566  rm lol.txt 
+ 1567  ls
+ 1568  rm -r kill-me/
+ 1569  ls
+ 1570  man cp
+ 1571  cp and-then.txt no-and-then.txt
+ 1572  ls
+ 1573  cat and-then.txt 
+ 1574  cat no-and-then.txt 
+ 1575  man history 
+ 1576  history 
+ 1577  history > command-history.txt
