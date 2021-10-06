@@ -8,8 +8,8 @@ const num2 = process.argv[4];
 const op = process.argv[3];
 
 function testing(num1, op, num2) {
-  const parsed = parseInt(num1);
-  const parsed2 = parseInt(num2);
+  const parsed = parseFloat(num1);
+  const parsed2 = parseFloat(num2);
   if (op === 'plus') {
     console.log('result:', add(parsed, parsed2));
   } else if (op === 'minus') {
