@@ -6,7 +6,7 @@ function update(id, string) {
   if (obj[id] !== undefined) {
     obj[id] = string;
   }
-  writeFileReuse(update);
+  writeFileReuse(data);
 }
 
 module.exports = update;

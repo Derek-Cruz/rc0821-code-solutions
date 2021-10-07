@@ -5,7 +5,7 @@ const obj = data.notes;
 function create(string) {
   obj[data.nextId] = string;
   data.nextId = data.nextId + 1;
-  writeFileReuse(create);
+  writeFileReuse(data);
 }
 
 module.exports = create;

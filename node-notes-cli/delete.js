@@ -4,7 +4,7 @@ const obj = data.notes;
 
 function deleteNote(id) {
   delete obj[id];
-  writeFileReuse(deleteNote);
+  writeFileReuse(data);
 }
 
 module.exports = deleteNote;
