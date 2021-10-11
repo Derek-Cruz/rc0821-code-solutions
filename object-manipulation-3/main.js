@@ -1,41 +1,52 @@
 console.log('Lodash is loaded:', typeof _ !== 'undefined');
 
-var players = [
+const players = [
   {
-    name: 'Derek Cruz'
+    name: 'Derek Cruz',
+    hand: 0
   },
   {
-    name: 'Brett Albright'
+    name: 'Brett Albright',
+    hand: 0
   },
   {
-    name: 'Scott Bowler'
+    name: 'Scott Bowler',
+    hand: 0
   },
   {
-    name: 'Tim Horist'
+    name: 'Tim Horist',
+    hand: 0
   }
 ];
 
-var suits = ['Spades', 'Diamonds', 'Club', 'Heart'];
-var values = ['Ace', '2', '3', '4', '5', '6', '7', '8', '9', '10', 'Jack', 'Queen', 'King'];
-var deck = [];
+const suits = ['Spades', 'Diamonds', 'Club', 'Heart'];
+const values = ['Ace', '2', '3', '4', '5', '6', '7', '8', '9', '10', 'Jack', 'Queen', 'King'];
+const deck = [];
 
-for (var suitsIndex = 0; suitsIndex < suits.length; suitsIndex++) {
-  for (var valuesIndex = 0; valuesIndex < values.length; valuesIndex++) {
-    var card = { Value: values[valuesIndex], Suit: suits[suitsIndex] };
+for (let suitsIndex = 0; suitsIndex < suits.length; suitsIndex++) {
+  for (let valuesIndex = 0; valuesIndex < values.length; valuesIndex++) {
+    const card = { Value: values[valuesIndex], Suit: suits[suitsIndex] };
     deck.push(card);
   }
 }
 
-for (var getCard = deck.length - 1; getCard > 0; getCard--) {
-  var testing = Math.floor(Math.random() * getCard);
-  var temp = deck[getCard];
+for (let getCard = deck.length - 1; getCard > 0; getCard--) {
+  const testing = Math.floor(Math.random() * getCard);
+  const temp = deck[getCard];
   deck[getCard] = deck[testing];
   deck[testing] = temp;
 }
 
-for (var dealCard = 0; dealCard < players.length; dealCard++) {
-  players[dealCard].hand = deck.splice(0, 2);
+function dealCards(cards) {
+  for (let dealCard = 0; dealCard < players.length; dealCard++) {
+    players[dealCard].hand = deck.splice(0, 2);
+    // console.log('test', dealCards(players[dealCard].hand));
+
+  }
 }
+
+dealCards(players.hand);
+// console.log('test', dealCards(players.hand));
 
 // function getScores(handValue) {
 //   for (var i = 0; i < players.length; i++) {
