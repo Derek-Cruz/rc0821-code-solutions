@@ -1,6 +1,6 @@
 const express = require('express');
 const app = express();
-// const fs = require('fs');
+const fs = require('fs');
 const notes = require('./data.json');
 
 const parse = express.json();
@@ -37,7 +37,13 @@ app.post('/api/notes', (req, res) => {
       content: req.body.content
     };
     notes.nextId++;
-    res.status(201).json({ test: 'testing' });
+    fs.writeFile('./data.json', JSON.stringify(notes, null, 2), err => {
+      if (err) {
+        res.status(500).json({ error: 'An unexpected error has occurred' });
+      } else {
+        res.status(201).json(notes.notes[newNote]);
+      }
+    });
   }
 });
 
