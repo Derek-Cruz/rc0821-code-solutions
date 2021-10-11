@@ -2,8 +2,8 @@
   "nextId": 11,
   "notes": {
     "2": {
-      "id": 2,
-      "content": "The event loop, this, closures, and prototypal inheritance are special about JavaScript."
+      "id": "2",
+      "content": "i changed this content hopefully thats okay! lol"
     },
     "5": {
       "id": 5,
