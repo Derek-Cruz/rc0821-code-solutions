@@ -37,13 +37,32 @@ app.post('/api/notes', (req, res) => {
       content: req.body.content
     };
     notes.nextId++;
-    fs.writeFile('./data.json', JSON.stringify(notes, null, 2), err => {
+    fs.writeFile('./data.json ', JSON.stringify(notes, null, 2), err => {
       if (err) {
         res.status(500).json({ error: 'An unexpected error has occurred' });
       } else {
         res.status(201).json(notes.notes[newNote]);
       }
     });
+  }
+});
+
+app.delete('/api/notes/:id', (req, res) => {
+  if (Number.isInteger(parseFloat(req.params.id)) && parseFloat(req.params.id) > 0) {
+    if (req.params.id in notes.notes) {
+      delete notes.notes[req.params.id];
+      fs.writeFile('./data.json', JSON.stringify(notes, null, 2), err => {
+        if (err) {
+          res.status(500).json({ error: 'An unexpected error has occurred' });
+        } else {
+          res.status(204).json();
+        }
+      });
+    } else {
+      res.status(404).json({ error: `cannot find note with id ${req.params.id}` });
+    }
+  } else {
+    res.status(400).json({ error: 'id must be a positive integer' });
   }
 });
 
