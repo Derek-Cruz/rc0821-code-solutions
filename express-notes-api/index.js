@@ -27,6 +27,20 @@ app.get('/api/notes/:id', (req, res) => {
   }
 });
 
+app.post('/api/notes', (req, res) => {
+  const newNote = notes.nextId;
+  if (req.body.content === undefined) {
+    res.status(400).json({ error: 'content is a required field' });
+  } else {
+    notes.notes[newNote] = {
+      id: newNote,
+      content: req.body.content
+    };
+    notes.nextId++;
+    res.status(201).json({ test: 'testing' });
+  }
+});
+
 app.listen(3000, () => {
   // eslint-disable-next-line no-console
   console.log('Listening on Port 3000');
