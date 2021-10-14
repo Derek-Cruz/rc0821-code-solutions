@@ -3,7 +3,7 @@ const takeAChance = require('./take-a-chance');
 const derek = takeAChance('Derek');
 
 derek.then(value => {
-  console.log('Hooray! You\'re so lucky, Derek!');
+  console.log(value);
 });
 
 derek.catch(error => {
