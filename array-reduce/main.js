@@ -22,3 +22,10 @@ console.log('results of sum:', sum);
 
 const product = numbers.reduce((num1, num2) => num1 * num2);
 console.log('results of product:', product);
+
+const balance = account.reduce((value1, value2) => (
+  (value2.type === 'deposit')
+    ? value1 + value2.amount
+    : value1 - value2.amount
+), 0);
+console.log('results of balance:', balance);
