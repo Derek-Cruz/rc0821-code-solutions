@@ -111,6 +111,7 @@ app.put('/api/grades/:gradeId', (req, res) => {
       res.json(grade);
     })
     .catch(err => {
+      // eslint-disable-next-line no-console
       console.error('Insert grade error:', err);
       res.status(500).json({ error: 'An unexpected error occurred.' });
     });
