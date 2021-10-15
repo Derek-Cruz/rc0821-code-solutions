@@ -52,6 +52,7 @@ app.post('/api/grades', (req, res) => {
     ($1, $2, $3)
      RETURNING *;
   `;
+
   const params = [name, course, score];
 
   db.query(sql, params)
@@ -97,6 +98,7 @@ app.put('/api/grades/:gradeId', (req, res) => {
      WHERE "gradeId" = $4
  RETURNING *;
   `;
+
   const params = [name, course, score, gradeId];
 
   db.query(sql, params)
@@ -111,6 +113,37 @@ app.put('/api/grades/:gradeId', (req, res) => {
     .catch(err => {
       console.error('Insert grade error:', err);
       res.status(500).json({ error: 'An unexpected error occurred.' });
+    });
+});
+
+app.delete('/api/grades/:gradeId', (req, res) => {
+  const gradeId = parseInt(req.params.gradeId);
+
+  if (!Number.isInteger(gradeId) || gradeId <= 0) {
+    return res.status(400).json({ error: 'Must enter a valid gradeId' });
+  }
+
+  const sql = `
+    DELETE FROM "grades"
+    WHERE "gradeId" = $1
+      RETURNING *;
+  `;
+
+  const params = [gradeId];
+
+  db.query(sql, params)
+    .then(data => {
+      const [grade] = data.rows;
+      if (!grade) {
+        return res.status(404).json({ error: 'ID does not exist in database' });
+      }
+
+      res.json(grade);
+    })
+    .catch(err => {
+      // eslint-disable-next-line no-console
+      console.log('Insert grade error: ', err);
+      res.status(500).json({ error: 'An unexpected error occurred' });
     });
 });
 
