@@ -29,3 +29,6 @@ const balance = account.reduce((value1, value2) => (
     : value1 - value2.amount
 ), 0);
 console.log('results of balance:', balance);
+
+const composite = traits.reduce((value1, value2) => Object.assign(value2, value1), {});
+console.log('results of composite:', composite);
