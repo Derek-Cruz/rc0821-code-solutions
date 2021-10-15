@@ -13,9 +13,3 @@ console.log('results of doubled:', doubled);
 
 const prices = numbers.map(num => `$${num.toFixed(2)}`);
 console.log('results of prices:', prices);
-
-const upperCased = languages.map(language => language.toUpperCase());
-console.log('results of upperCased:', upperCased);
-
-const firstLetters = languages.map(language => language[0]);
-console.log('firstLetters:', firstLetters);
