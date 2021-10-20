@@ -12,17 +12,18 @@ class CustomButton extends React.Component {
   }
 
   render() {
-    if (!this.state.isClicked) {
-      return (
-        <button onClick={this.handleClick}>Click Me!</button>
-      );
-    } else {
-      return (
-        <button>Thanks!</button>
-      );
-    }
+    const isClicked = !this.state.isClicked;
+    return (
+      <div>
+        {isClicked
+          ? <button onClick={this.handleClick}>Click Me!</button>
+          : <button>Thanks!</button>
+        }
+      </div>
+    );
   }
 }
+
 ReactDOM.render(
   <CustomButton />,
   document.querySelector('#root')
