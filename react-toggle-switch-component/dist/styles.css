@@ -1,0 +1,40 @@
+.div-style {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.button-style {
+  width: 66px;
+  height: 30px;
+  border-radius: 25px;
+  border: 2px solid black;
+  padding: 0;
+  cursor: pointer;
+  display: flex;
+}
+
+.switch-div {
+  background-color: white;
+  border: 2px solid black;
+  height: 26px;
+  width: 26px;
+  position: relative;
+  top: -2px;
+  left: -2px;
+  border-radius: 25px;
+}
+
+.on-or-off {
+  font-family: cursive;
+  margin: 10px;
+}
+
+.switch-on {
+  top: -2px;
+  left: 34px;
+}
+
+.button-on {
+  background-color: rgb(66, 197, 66);
+}
