@@ -1,15 +1,25 @@
-#root {
-  position: absolute;
-  left: 45%;
-  top: 10%;
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .circle {
-  width: 120px;
-  height: 120px;
-  border: 3px solid rgb(17, 17, 17);
-  border-radius: 100%;
-  text-align: center;
-  line-height: 115px;
-  font-size: 38px;
+  margin: 25px;
+  font-size: 3rem;
+  font-family: system-ui, sans-serif;
+  width: 180px;
+  height: 180px;
+  border: 5px solid black;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.button-style {
+  cursor: pointer;
+  border: none;
+  background-color: transparent;
 }
