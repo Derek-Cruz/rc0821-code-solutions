@@ -1,0 +1,39 @@
+.btn {
+  font-size: 2rem;
+  padding: 0.5rem 1rem;
+  border: 2px solid rgb(70, 70, 70);
+  border-radius: 0.25rem;
+  position: relative;
+  transition: background-color 0.15s ease, color 0.15s ease;
+}
+
+.btn-cold {
+  background-color: rgb(53, 28, 117);
+  color: rgb(255, 255, 255);
+}
+
+.btn-cool {
+  background-color: rgb(103, 78, 167);
+  color: rgb(255, 255, 255);
+}
+
+.btn-tepid {
+  background-color: rgb(224, 102, 102);
+  color: rgb(255, 255, 255);
+}
+
+.btn-warm {
+  background-color: rgb(246, 178, 107);
+  color: rgb(70, 70, 70);
+}
+
+.btn-hot {
+  background-color: rgb(231, 231, 73);
+  color: rgb(70, 70, 70);
+}
+
+.btn-nuclear {
+  color: red;
+  border-color: red;
+  background-color: rgb(255, 255, 255);
+}
