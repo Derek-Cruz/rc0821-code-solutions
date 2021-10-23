@@ -1,0 +1,41 @@
+i {
+  padding-left: 20px;
+}
+
+.form-style {
+  display: flex;
+  flex-direction: column;
+}
+
+.label-style {
+  font-family: 'Balsamiq Sans', cursive;
+  font-size: 1.7rem;
+}
+
+.input-style {
+  border: 3px solid black;
+  font-size: 1.1rem;
+}
+
+.div-style {
+  padding-top: 4px;
+  display: flex;
+  align-items: center;
+}
+
+.message {
+  padding-top: 8px;
+  font-family: 'Balsamiq Sans', cursive;
+  font-size: 1rem;
+  color: #cf2a28;
+}
+
+.fa-times {
+  color: #cf2a28;
+  font-size: 1.7rem;
+}
+
+.fa-check {
+  color: #6ba859;
+  font-size: 1.7rem;
+}
