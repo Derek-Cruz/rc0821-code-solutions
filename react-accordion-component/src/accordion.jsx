@@ -18,11 +18,11 @@ class Accordion extends React.Component {
 
   languageList(allTopics) {
     const topics = allTopics.map(eachTopic => {
-      const langInfo = this.state.id === eachTopic.topic;
+      const langInfo = this.state.id === eachTopic.id;
 
       return (
         <div key={eachTopic.topic}>
-          <h1 onClick={this.handleClick} id={eachTopic.topic} className='topic'>{eachTopic.topic}</h1>
+          <h1 onClick={() => this.handleClick(eachTopic.id)} className='topic'>{eachTopic.topic}</h1>
           <p className={`info ${langInfo ? this.state.id : 'hidden'}`}>{eachTopic.details}</p>
         </div>
       );
@@ -32,9 +32,9 @@ class Accordion extends React.Component {
 
   render(props) {
     return (
-    <div>
-      {this.languageList(this.props.topics)}
-    </div>
+      <div>
+        {this.languageList(this.props.topics)}
+      </div>
     );
   }
 }
