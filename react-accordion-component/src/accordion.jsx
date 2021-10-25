@@ -6,24 +6,24 @@ class Accordion extends React.Component {
     this.handleClick = this.handleClick.bind(this);
     this.languageList = this.languageList.bind(this);
     this.state = {
-      current: null
+      id: 0
     };
   }
 
   handleClick(event) {
-    (event.target.id === this.state.current)
-      ? this.setState({ current: null })
-      : this.setState({ current: event.target.id });
+    (event.target.id === this.state.id)
+      ? this.setState({ id: 0 })
+      : this.setState({ id: event.target.id });
   }
 
   languageList(allTopics) {
     const topics = allTopics.map(eachTopic => {
-      const langInfo = this.state.current === eachTopic.topic;
+      const langInfo = this.state.id === eachTopic.topic;
 
       return (
         <div key={eachTopic.topic}>
           <h1 onClick={this.handleClick} id={eachTopic.topic} className='topic'>{eachTopic.topic}</h1>
-          <p className={`info ${langInfo ? this.state.current : 'hidden'}`}>{eachTopic.details}</p>
+          <p className={`info ${langInfo ? this.state.id : 'hidden'}`}>{eachTopic.details}</p>
         </div>
       );
     });
