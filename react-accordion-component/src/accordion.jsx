@@ -10,10 +10,10 @@ class Accordion extends React.Component {
     };
   }
 
-  handleClick(event) {
-    (event.target.id === this.state.id)
+  handleClick(id) {
+    (id === this.state.id)
       ? this.setState({ id: 0 })
-      : this.setState({ id: event.target.id });
+      : this.setState({ id: id });
   }
 
   languageList(allTopics) {
