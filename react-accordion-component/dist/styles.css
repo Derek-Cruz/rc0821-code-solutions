@@ -1,0 +1,23 @@
+.hidden {
+  display: none;
+}
+
+.info {
+  font-size: 0.9rem;
+}
+
+.topic {
+  font-size: 1.4rem;
+  background-color: #ddd;
+}
+
+.info,
+.topic {
+  width: 400px;
+  border: 3px solid black;
+  margin: 1px;
+  padding: 10px 5px;
+  font-family: 'Balsamiq Sans', cursive;
+  font-weight: 500;
+  cursor: pointer;
+}
