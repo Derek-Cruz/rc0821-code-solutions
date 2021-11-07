@@ -49,22 +49,38 @@ for (let i = 0; i < players.length; i++) {
   testing += 2;
 }
 
-// const score = 0;
+let score = 0;
 
-// function getFirstValue(rank) {
-//   (rank === 'J' || rank === 'K' || rank === 'Q')
-//     ? score = 10
-//     : (rank === 'A')
-//         ? score = 11
-//         : score = rank;
-//   return score;
-// }
-//
-// function getSecondValue(rank) {
-//   (rank === 'J' || rank === 'K' || rank === 'Q')
-//     ? score = 10
-//     : (rank === 'A')
-//         ? score = 11
-//         : score = rank;
-//   return score;
-// }
+function getFirstValue(rank) {
+  (rank === 'J' || rank === 'K' || rank === 'Q')
+    ? score = 10
+    : (rank === 'A')
+        ? score = 11
+        : score = rank;
+  return score;
+}
+
+function getSecondValue(rank) {
+  (rank === 'J' || rank === 'K' || rank === 'Q')
+    ? score = 10
+    : (rank === 'A')
+        ? score = 11
+        : score = rank;
+  return score;
+}
+
+for (let i = 0; i < players.length; i++) {
+  const cardOne = getFirstValue(players[i].hand[0].rank);
+  const cardTwo = getSecondValue(players[i].hand[1].rank);
+  players[i].score = cardOne + cardTwo;
+}
+
+let winner = players[0];
+
+for (let winnerWinner = 0; winnerWinner < players.length; winnerWinner++) {
+  if (players[winnerWinner].score > winner.score) {
+    winner = players[winnerWinner];
+  }
+}
+console.log(winner);
+// testing some more before pr
