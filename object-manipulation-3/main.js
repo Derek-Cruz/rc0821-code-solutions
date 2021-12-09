@@ -83,4 +83,3 @@ for (let winnerWinner = 0; winnerWinner < players.length; winnerWinner++) {
   }
 }
 console.log(winner);
-// testing some more before pr
